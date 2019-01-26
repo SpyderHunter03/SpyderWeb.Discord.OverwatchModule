@@ -1,0 +1,9 @@
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.csprojAssemblyReference.cache
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.csproj.CoreCompileInputs.cache
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.AssemblyInfoInputs.cache
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.AssemblyInfo.cs
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.deps.json
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.pdb
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll
+C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.pdb

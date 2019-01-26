@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>SpyderWeb.Discord.OverwatchModule</PackageId>
+    <Version>0.0.1</Version>
+    <Title>SpyderWeb.Discord.OverwatchModule</Title>
+    <Authors>SpyderHunter03</Authors>
+    <Description>This package is for use with the SpyderWeb Twitch/Discord Bot.  It is intended to be used as a command module for Discord to get Overwatch Stats.</Description>
+    <PackageTags>Discord;Bot;SpyderWeb</PackageTags>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Overwatch.Net" Version="4.2.0" />
+    <PackageReference Include="SpyderWeb.DiscordModules.Core" Version="0.0.3" />
+  </ItemGroup>
+
+</Project>

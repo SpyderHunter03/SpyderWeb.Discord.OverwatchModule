@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SpyderWeb.Discord.OverwatchModule</id>
+    <version>0.0.1</version>
+    <title>SpyderWeb.Discord.OverwatchModule</title>
+    <authors>SpyderHunter03</authors>
+    <owners>SpyderHunter03</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package is for use with the SpyderWeb Twitch/Discord Bot.  It is intended to be used as a command module for Discord to get Overwatch Stats.</description>
+    <tags>Discord Bot SpyderWeb</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="AutoMapper" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Overwatch.Net" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="SpyderWeb.DiscordModules.Core" version="0.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Release\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll" target="lib\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll" />
+  </files>
+</package>
