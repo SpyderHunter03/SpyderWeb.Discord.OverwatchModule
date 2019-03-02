@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyderWeb.Discord.OverwatchModule", "SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule.csproj", "{7D3EEAC1-82EA-4772-BEBA-DC362995854B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyderWeb.Discord.OverwatchModule.Tests", "SpyderWeb.Discord.OverwatchModule.Tests\SpyderWeb.Discord.OverwatchModule.Tests.csproj", "{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{7D3EEAC1-82EA-4772-BEBA-DC362995854B}.Release|x64.Build.0 = Release|Any CPU
 		{7D3EEAC1-82EA-4772-BEBA-DC362995854B}.Release|x86.ActiveCfg = Release|Any CPU
 		{7D3EEAC1-82EA-4772-BEBA-DC362995854B}.Release|x86.Build.0 = Release|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Debug|x64.Build.0 = Debug|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Debug|x86.Build.0 = Debug|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Release|x64.ActiveCfg = Release|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Release|x64.Build.0 = Release|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Release|x86.ActiveCfg = Release|Any CPU
+		{CBA5FD1D-68BE-4B46-B17F-2ED384A1A0DC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

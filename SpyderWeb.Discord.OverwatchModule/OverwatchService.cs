@@ -1,15 +1,17 @@
 using System;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using AutoMapper;
 using OverwatchAPI;
 
+[assembly: InternalsVisibleToAttribute("SpyderWeb.Discord.OverwatchModule.Tests")]
 namespace SpyderWeb.Discord.OverwatchModule
 {
-    public class OverwatchService : IOverwatchService
+    internal class OverwatchService : IOverwatchService
     {
         private readonly IMapper _mapper;
 
-        public OverwatchService()
+        internal OverwatchService()
         {
             var mappingConfig = new MapperConfiguration(mc =>
             {

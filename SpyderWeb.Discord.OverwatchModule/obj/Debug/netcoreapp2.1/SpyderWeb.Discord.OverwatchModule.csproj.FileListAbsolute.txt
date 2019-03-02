@@ -7,3 +7,12 @@ C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.
 C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.pdb
 C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll
 C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.pdb
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.deps.json
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.pdb
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.csprojAssemblyReference.cache
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.csproj.CoreCompileInputs.cache
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.AssemblyInfoInputs.cache
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.AssemblyInfo.cs
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll
+G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\obj\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.pdb

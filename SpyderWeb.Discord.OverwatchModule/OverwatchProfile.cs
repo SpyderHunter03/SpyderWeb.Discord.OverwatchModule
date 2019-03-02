@@ -7,9 +7,15 @@ namespace SpyderWeb.Discord.OverwatchModule
     {
         public OverwatchProfile()
         {
-            CreateMap<Player, OverwatchPlayerModel>()
-                .ForMember(m => m.GamePlatform, x => x.MapFrom(m => m.Platform))
-                .ReverseMap();
+            CreateMap<OverwatchCore.Data.Player, OverwatchPlayerModel>()
+                .ForMember(d => d.Endorsements, s => s.Ignore())
+                .ForMember(d => d.Achievements, s => s.Ignore());
+            
+            CreateMap<OverwatchCore.Data.Stat, OverwatchPlayerModel.Stat>();
+
+            CreateMap<OverwatchCore.Data.StatValue, OverwatchPlayerModel.StatValue>();
+
+            CreateMap<OverwatchCore.Data.Alias, OverwatchPlayerModel.Alias>();
         }
     }
 }

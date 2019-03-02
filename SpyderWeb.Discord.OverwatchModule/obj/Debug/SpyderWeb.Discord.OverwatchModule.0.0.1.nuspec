@@ -12,12 +12,14 @@
     <dependencies>
       <group targetFramework=".NETCoreApp2.1">
         <dependency id="AutoMapper" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
         <dependency id="Overwatch.Net" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="OverwatchCore" version="1.0.3" exclude="Build,Analyzers" />
         <dependency id="SpyderWeb.DiscordModules.Core" version="0.0.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\spyde\source\repos\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll" target="lib\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll" />
+    <file src="G:\Users\spyde\source\repos\Github\SpyderWeb.Discord.OverwatchModule\SpyderWeb.Discord.OverwatchModule\bin\Debug\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll" target="lib\netcoreapp2.1\SpyderWeb.Discord.OverwatchModule.dll" />
   </files>
 </package>

@@ -41,7 +41,7 @@ namespace SpyderWeb.Discord.OverwatchModule
                     .WithFooter(f =>
                     {
                         f.IconUrl = "https://steamusercontent-a.akamaihd.net/ugc/767148359772513521/87347549402E0F321074CFE9DA98C24212AF3DD3/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C637%3A358&composite-to=*,*%7C637%3A358&background-color=black";
-                        f.Text = "Powered by Overwatch.Net";
+                        f.Text = "Powered by OverwatchCore";
                     })
                     .WithImageUrl(player.IsProfilePrivate || string.IsNullOrWhiteSpace(player.CompetitiveRankImageUrl) ? player.PlayerLevelImage : player.CompetitiveRankImageUrl)
                     .WithThumbnailUrl(player.ProfilePortraitUrl)
@@ -52,11 +52,19 @@ namespace SpyderWeb.Discord.OverwatchModule
                     })
                     .AddField("Level", player.PlayerLevel, true)
                     .AddField("SR", CheckForPrivate(player, () => player.CompetitiveRank.ToString()), true)
-                    .AddField("Career Competitive K.D.", CheckForPrivate(player, () => player.CompetitiveStats.FirstOrDefault(cs => cs.CategoryName.Equals("Something", StringComparison.InvariantCultureIgnoreCase))?.Value.ToString() ?? "N/A"), true)
-                    .AddField("Career Win Percentage", CheckForPrivate(player, () => player.CompetitiveStats.FirstOrDefault(cs => cs.CategoryName.Equals("Something", StringComparison.InvariantCultureIgnoreCase))?.Value.ToString()) ?? "N/A", true);
-                    
+                    //.AddField("Career Competitive K.D.", CheckForPrivate(player, () => player.CompetitiveStats.FirstOrDefault(cs => cs.CategoryName.Equals("Something", StringComparison.InvariantCultureIgnoreCase))?.Value.ToString() ?? "N/A"), true)
+                    //.AddField("Career Win Percentage", CheckForPrivate(player, () => player.CompetitiveStats.FirstOrDefault(cs => cs.CategoryName.Equals("Something", StringComparison.InvariantCultureIgnoreCase))?.Value.ToString()) ?? "N/A", true);
+                    ;
                 await ReplyAsync(embed: embed.Build());
             }
+        }
+
+        public async Task Reply(string message, EmbedBuilder embed = null)
+        {
+            if (embed != null)
+                await ReplyAsync(embed: embed.Build());
+            
+            await ReplyAsync(message);
         }
 
         private string CheckForPrivate(OverwatchPlayerModel player, Func<string> MethodToRun)

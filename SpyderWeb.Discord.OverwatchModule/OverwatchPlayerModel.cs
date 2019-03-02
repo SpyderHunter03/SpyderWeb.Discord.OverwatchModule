@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace SpyderWeb.Discord.OverwatchModule
 {
@@ -7,8 +8,8 @@ namespace SpyderWeb.Discord.OverwatchModule
     {
         public string CompetitiveRankImageUrl { get; set; }
         public List<Achievement> Achievements { get; set; }
-        public List<Stat> CompetitiveStats { get; set; }
-        public List<Stat> CasualStats { get; set; }
+        public Stat CompetitiveStats { get; set; }
+        public Stat CasualStats { get; set; }
         public bool IsProfilePrivate { get; set; }
         public Dictionary<Endorsement, decimal> Endorsements { get; set; }
         public ushort EndorsementLevel { get; set; }
@@ -21,6 +22,10 @@ namespace SpyderWeb.Discord.OverwatchModule
         public Platform GamePlatform { get; set; }
         public string Username { get; set; }
         public string ProfilePortraitUrl { get; set; }
+        public long GamesWon { get; set; }
+        public string EndorsementImage { get; set; }
+        public Uri PrestigeImage { get; set; }
+        public ushort Prestige { get; set; }
 
         public sealed class Alias
         {
@@ -38,10 +43,15 @@ namespace SpyderWeb.Discord.OverwatchModule
 
         public sealed class Stat
         {
+            public ICollection<StatValue> TopHeroes { get; set; }
+            public ICollection<StatValue> CareerStats { get; set; }
+        }
+        public sealed class StatValue
+        {
             public string HeroName { get; set; }
             public string CategoryName { get; set; }
             public string Name { get; set; }
-            public double Value { get; set; }
+            public dynamic Value { get; set; }
         }
 
         public enum Endorsement
