@@ -59,14 +59,6 @@ namespace SpyderWeb.Discord.OverwatchModule
             }
         }
 
-        public async Task Reply(string message, EmbedBuilder embed = null)
-        {
-            if (embed != null)
-                await ReplyAsync(embed: embed.Build());
-            
-            await ReplyAsync(message);
-        }
-
         private string CheckForPrivate(OverwatchPlayerModel player, Func<string> MethodToRun)
         {
             if (player.IsProfilePrivate)
